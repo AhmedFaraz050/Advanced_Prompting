@@ -1,4 +1,3 @@
-
 # 🧠 Week 3 Assignment - Advanced Prompting  
 ### Zero-Shot, Few-Shot, and Chain-of-Thought (CoT)
 
@@ -30,38 +29,20 @@ Datasets used:
    ```bash
    git clone https://github.com/AhmedFaraz050/Advanced_Prompting.git
    cd Advanced_Prompting
-````
+Install dependencies:
 
-2. Install dependencies:
+bash
+Copy code
+pip install notebook pandas
+Launch Jupyter Notebook:
 
-   ```bash
-   pip install notebook pandas
-   ```
+bash
+Copy code
+jupyter notebook
+Open week3_assignment.ipynb and run the cells.
 
-3. Launch Jupyter Notebook:
-
-   ```bash
-   jupyter notebook
-   ```
-
-   Open `week3_assignment.ipynb` and run the cells.
-
----
-
-## ✅ Results
-
-| Task              | Zero-Shot         | Few-Shot  | CoT                           |
-| ----------------- | ----------------- | --------- | ----------------------------- |
-| Logic Puzzle #1   | ❌ Incorrect       | ✅ Correct | ✅ Correct (with reasoning)    |
-| Math Problem #1   | ❌ Wrong calc      | ✅ Correct | ✅ Correct (step-by-step)      |
-| Reasoning Task #3 | ❌ Over-simplified | ✅ Correct | ✅ Correct (clear explanation) |
-
-### 🔹 Insights
-
-* **Zero-Shot**: Struggled, often incomplete or wrong.
-* **Few-Shot**: Better accuracy with examples.
-* **CoT**: Best results, clear reasoning, most reliable.
-
----
-
-
+✅ Results
+Task	Zero-Shot	Few-Shot	CoT
+Logic Puzzle #1	❌ Incorrect	✅ Correct	✅ Correct (with reasoning)
+Math Problem #1	❌ Wrong calc	✅ Correct	✅ Correct (step-by-step)
+Reasoning Task #3	❌ Over-simplified	✅ Correct	✅ Correct (clear explanation)
