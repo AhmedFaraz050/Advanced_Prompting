@@ -64,8 +64,4 @@ Datasets used:
 
 ---
 
-✍️ *Submitted as part of Week 3: Advanced Prompting Assignment*
-
-````
-
 
