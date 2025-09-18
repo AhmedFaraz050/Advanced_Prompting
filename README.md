@@ -80,6 +80,13 @@ echo "# 🧠 Week 3 Assignment - Advanced Prompting
 ### Zero-Shot, Few-Shot, and Chain-of-Thought (CoT)
 
 This repository contains my **Week 3 assignment** for experimenting with different prompting strategies and evaluating their effectiveness on reasoning tasks.  
+
+---" > README.md
+git add README.md
+git commit -m "Add README.md with assignment details"
+git push
+````
+
 ---
 
 Do you want me to also include a **screenshot of the notebook output** section (evaluation table) inside the README for a more professional touch?
